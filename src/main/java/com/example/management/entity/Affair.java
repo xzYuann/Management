@@ -1,6 +1,7 @@
 <<<<<<< HEAD
 package com.example.management.entity;
 
+import java.time.LocalDateTime;
 import java.util.Date;
 
 public class Affair {
@@ -84,6 +85,32 @@ public class Affair {
      *
      * @mbg.generated Fri Jul 17 19:04:15 CST 2020
      */
+    private Integer club_id;
+
+    public Boolean getOk() {
+        return isOk;
+    }
+
+    public void setOk(Boolean ok) {
+        isOk = ok;
+    }
+
+    public Boolean getDeleted() {
+        return isDeleted;
+    }
+
+    public void setDeleted(Boolean deleted) {
+        isDeleted = deleted;
+    }
+
+    public Integer getClub_id() {
+        return club_id;
+    }
+
+    public void setClub_id(Integer club_id) {
+        this.club_id = club_id;
+    }
+
     public int getId() {
         return id;
     }
